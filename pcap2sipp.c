@@ -35,6 +35,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <libnet.h>
 #include <libnet/libnet-headers.h>
 
 int to_string(ip_address ip, char *result){
