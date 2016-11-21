@@ -11,4 +11,7 @@ tcpdump
 COMPILE
 *****************************************
 Just run the make command:
-make all
+make all   
+
+2016-11-22
+learn how to use Git
