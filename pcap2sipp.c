@@ -927,6 +927,12 @@ int read_configs(int argc, char **argv){
 		return -1;
 	}
 
+	if (ovalue == NULL) {
+		fprintf (stderr, "Please specify an option\n");
+		print_usage();
+		return -1;
+	}
+
 	for (index = optind; index < argc; index++)
 		printf ("Non-option argument %s\n", argv[index]);
 
